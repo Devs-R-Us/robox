@@ -24,7 +24,7 @@ authconfig --enableshadow --passalgo=sha512
 reboot --eject
 
 # repo --name=BaseOS
-url --url=https://ftp5.gwdg.de/pub/linux/rocky/8.6/BaseOS/x86_64/os/
+url --url=http://f.p2x-3yz.us/OS/Rocky/8.6/
 
 %packages --instLangs=en_US.utf8
 @core

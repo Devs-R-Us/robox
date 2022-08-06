@@ -15,6 +15,9 @@ pushd `dirname $CMD` > /dev/null
 BASE=`pwd -P`
 popd > /dev/null
 cd $BASE
+#echo $BASE
+source $BASE/../../.credentialsrc
+echo $VMWARE_WORKSTATION
 
 function provide-limits() {
 
@@ -404,7 +407,7 @@ elif [[ $1 == "vmware" ]]; then provide-vmware
 elif [[ $1 == "packer" ]]; then provide-packer
 elif [[ $1 == "libvirt" ]]; then provide-libvirt
 elif [[ $1 == "vagrant" ]]; then provide-vagrant
-elif [[ $1 == "virtualbox" ]]; then provide-vbox
+#elif [[ $1 == "virtualbox" ]]; then provide-vbox
 
 # The full monty.
 elif [[ $1 == "all" ]]; then all

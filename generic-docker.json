@@ -1050,7 +1050,7 @@
             },
             {
                 "type": "docker-push",
-                "login": "false",
+                "login": "true",
                 "login_username": "{{user `quay_username`}}",
                 "login_password": "{{user `quay_password`}}"
             }
@@ -1085,7 +1085,7 @@
             },
             {
                 "type": "docker-push",
-                "login": "false",
+                "login": "true",
                 "login_username": "{{user `quay_username`}}",
                 "login_password": "{{user `quay_password`}}"
             }
@@ -1155,7 +1155,7 @@
             },
             {
                 "type": "docker-push",
-                "login": "false",
+                "login": "true",
                 "login_username": "{{user `quay_username`}}",
                 "login_password": "{{user `quay_password`}}"
             }
@@ -1190,7 +1190,7 @@
             },
             {
                 "type": "docker-push",
-                "login": "false",
+                "login": "true",
                 "login_username": "{{user `docker_username`}}",
                 "login_password": "{{user `docker_password`}}"
             },
@@ -1242,7 +1242,7 @@
             },
             {
                 "type": "docker-push",
-                "login": "false",
+                "login": "true",
                 "login_username": "{{user `docker_username`}}",
                 "login_password": "{{user `docker_password`}}"
             },

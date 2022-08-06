@@ -2909,7 +2909,7 @@
       "name": "generic-oracle7-libvirt",
       "vm_name": "generic-oracle7-libvirt",
       "output_directory": "output/generic-oracle7-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -2941,7 +2941,7 @@
       "name": "generic-opensuse42-libvirt",
       "vm_name": "generic-opensuse42-libvirt",
       "output_directory": "output/generic-opensuse42-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -2976,7 +2976,7 @@
       "name": "generic-alpine35-libvirt",
       "vm_name": "generic-alpine35-libvirt",
       "output_directory": "output/generic-alpine35-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "60s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -3017,7 +3017,7 @@
       "name": "generic-alpine36-libvirt",
       "vm_name": "generic-alpine36-libvirt",
       "output_directory": "output/generic-alpine36-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "60s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -3058,7 +3058,7 @@
       "name": "generic-alpine37-libvirt",
       "vm_name": "generic-alpine37-libvirt",
       "output_directory": "output/generic-alpine37-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "60s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -3099,7 +3099,7 @@
       "name": "generic-alpine38-libvirt",
       "vm_name": "generic-alpine38-libvirt",
       "output_directory": "output/generic-alpine38-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "60s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -3140,7 +3140,7 @@
       "name": "generic-centos6-libvirt",
       "vm_name": "generic-centos6-libvirt",
       "output_directory": "output/generic-centos6-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -3172,7 +3172,7 @@
       "name": "generic-centos7-libvirt",
       "vm_name": "generic-centos7-libvirt",
       "output_directory": "output/generic-centos7-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -3204,7 +3204,7 @@
       "name": "generic-rhel7-libvirt",
       "vm_name": "generic-rhel7-libvirt",
       "output_directory": "output/generic-rhel7-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -3236,7 +3236,7 @@
       "name": "generic-arch-libvirt",
       "vm_name": "generic-arch-libvirt",
       "output_directory": "output/generic-arch-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "1s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -3296,7 +3296,7 @@
       "name": "generic-fedora25-libvirt",
       "vm_name": "generic-fedora25-libvirt",
       "output_directory": "output/generic-fedora25-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -3332,7 +3332,7 @@
       "name": "generic-fedora26-libvirt",
       "vm_name": "generic-fedora26-libvirt",
       "output_directory": "output/generic-fedora26-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -3368,7 +3368,7 @@
       "name": "generic-fedora27-libvirt",
       "vm_name": "generic-fedora27-libvirt",
       "output_directory": "output/generic-fedora27-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -3404,7 +3404,7 @@
       "name": "generic-fedora28-libvirt",
       "vm_name": "generic-fedora28-libvirt",
       "output_directory": "output/generic-fedora28-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -3440,7 +3440,7 @@
       "name": "generic-fedora29-libvirt",
       "vm_name": "generic-fedora29-libvirt",
       "output_directory": "output/generic-fedora29-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -3476,7 +3476,7 @@
       "name": "generic-debian8-libvirt",
       "vm_name": "generic-debian8-libvirt",
       "output_directory": "output/generic-debian8-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "10s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -3520,7 +3520,7 @@
       "name": "generic-debian9-libvirt",
       "vm_name": "generic-debian9-libvirt",
       "output_directory": "output/generic-debian9-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "10s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -3564,7 +3564,7 @@
       "name": "generic-ubuntu1604-libvirt",
       "vm_name": "generic-ubuntu1604-libvirt",
       "output_directory": "output/generic-ubuntu1604-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -3612,7 +3612,7 @@
       "name": "generic-ubuntu1610-libvirt",
       "vm_name": "generic-ubuntu1610-libvirt",
       "output_directory": "output/generic-ubuntu1610-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -3652,7 +3652,7 @@
       "name": "generic-ubuntu1704-libvirt",
       "vm_name": "generic-ubuntu1704-libvirt",
       "output_directory": "output/generic-ubuntu1704-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -3692,7 +3692,7 @@
       "name": "generic-ubuntu1710-libvirt",
       "vm_name": "generic-ubuntu1710-libvirt",
       "output_directory": "output/generic-ubuntu1710-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -3732,7 +3732,7 @@
       "name": "generic-ubuntu1804-libvirt",
       "vm_name": "generic-ubuntu1804-libvirt",
       "output_directory": "output/generic-ubuntu1804-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "1s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -3784,7 +3784,7 @@
       "name": "generic-ubuntu1810-libvirt",
       "vm_name": "generic-ubuntu1810-libvirt",
       "output_directory": "output/generic-ubuntu1810-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "1s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -3836,7 +3836,7 @@
       "name": "generic-gentoo-libvirt",
       "vm_name": "generic-gentoo-libvirt",
       "output_directory": "output/generic-gentoo-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "5s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -3878,7 +3878,7 @@
       "name": "generic-freebsd11-libvirt",
       "vm_name": "generic-freebsd11-libvirt",
       "output_directory": "output/generic-freebsd11-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "1s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -3926,7 +3926,7 @@
       "name": "generic-openbsd6-libvirt",
       "vm_name": "generic-openbsd6-libvirt",
       "output_directory": "output/generic-openbsd6-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "60s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -3962,7 +3962,7 @@
       "name": "generic-freebsd12-libvirt",
       "vm_name": "generic-freebsd12-libvirt",
       "output_directory": "output/generic-freebsd12-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "1s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -4010,7 +4010,7 @@
       "name": "generic-rhel6-libvirt",
       "vm_name": "generic-rhel6-libvirt",
       "output_directory": "output/generic-rhel6-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -4042,7 +4042,7 @@
       "name": "generic-rhel8-libvirt",
       "vm_name": "generic-rhel8-libvirt",
       "output_directory": "output/generic-rhel8-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -4074,7 +4074,7 @@
       "name": "generic-hardenedbsd11-libvirt",
       "vm_name": "generic-hardenedbsd11-libvirt",
       "output_directory": "output/generic-hardenedbsd11-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "1s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -4120,7 +4120,7 @@
       "name": "generic-dragonflybsd5-libvirt",
       "vm_name": "generic-dragonflybsd5-libvirt",
       "output_directory": "output/generic-dragonflybsd5-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "1s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -4179,7 +4179,7 @@
       "name": "generic-netbsd8-libvirt",
       "vm_name": "generic-netbsd8-libvirt",
       "output_directory": "output/generic-netbsd8-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "40s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -4255,7 +4255,7 @@
       "name": "generic-hardenedbsd12-libvirt",
       "vm_name": "generic-hardenedbsd12-libvirt",
       "output_directory": "output/generic-hardenedbsd12-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "1s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -4301,7 +4301,7 @@
       "name": "generic-alpine39-libvirt",
       "vm_name": "generic-alpine39-libvirt",
       "output_directory": "output/generic-alpine39-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "60s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -4343,7 +4343,7 @@
       "name": "generic-debian10-libvirt",
       "vm_name": "generic-debian10-libvirt",
       "output_directory": "output/generic-debian10-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "10s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -4387,7 +4387,7 @@
       "name": "generic-ubuntu1904-libvirt",
       "vm_name": "generic-ubuntu1904-libvirt",
       "output_directory": "output/generic-ubuntu1904-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "1s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -4439,7 +4439,7 @@
       "name": "generic-fedora30-libvirt",
       "vm_name": "generic-fedora30-libvirt",
       "output_directory": "output/generic-fedora30-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -4475,7 +4475,7 @@
       "name": "generic-oracle8-libvirt",
       "vm_name": "generic-oracle8-libvirt",
       "output_directory": "output/generic-oracle8-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -4507,7 +4507,7 @@
       "name": "generic-alpine310-libvirt",
       "vm_name": "generic-alpine310-libvirt",
       "output_directory": "output/generic-alpine310-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "60s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -4551,7 +4551,7 @@
       "name": "generic-opensuse15-libvirt",
       "vm_name": "generic-opensuse15-libvirt",
       "output_directory": "output/generic-opensuse15-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -4586,7 +4586,7 @@
       "name": "generic-centos8-libvirt",
       "vm_name": "generic-centos8-libvirt",
       "output_directory": "output/generic-centos8-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -4618,7 +4618,7 @@
       "name": "generic-fedora31-libvirt",
       "vm_name": "generic-fedora31-libvirt",
       "output_directory": "output/generic-fedora31-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -4654,7 +4654,7 @@
       "name": "generic-ubuntu1910-libvirt",
       "vm_name": "generic-ubuntu1910-libvirt",
       "output_directory": "output/generic-ubuntu1910-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "1s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -4706,7 +4706,7 @@
       "name": "generic-alpine311-libvirt",
       "vm_name": "generic-alpine311-libvirt",
       "output_directory": "output/generic-alpine311-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "60s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -4750,7 +4750,7 @@
       "name": "generic-ubuntu2004-libvirt",
       "vm_name": "generic-ubuntu2004-libvirt",
       "output_directory": "output/generic-ubuntu2004-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "1s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -4802,7 +4802,7 @@
       "name": "generic-fedora32-libvirt",
       "vm_name": "generic-fedora32-libvirt",
       "output_directory": "output/generic-fedora32-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -4837,7 +4837,7 @@
       "name": "generic-netbsd9-libvirt",
       "vm_name": "generic-netbsd9-libvirt",
       "output_directory": "output/generic-netbsd9-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "40s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -4910,7 +4910,7 @@
       "name": "generic-alpine312-libvirt",
       "vm_name": "generic-alpine312-libvirt",
       "output_directory": "output/generic-alpine312-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "60s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -4954,7 +4954,7 @@
       "name": "generic-devuan1-libvirt",
       "vm_name": "generic-devuan1-libvirt",
       "output_directory": "output/generic-devuan1-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "10s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -4998,7 +4998,7 @@
       "name": "generic-devuan2-libvirt",
       "vm_name": "generic-devuan2-libvirt",
       "output_directory": "output/generic-devuan2-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "10s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -5042,7 +5042,7 @@
       "name": "generic-devuan3-libvirt",
       "vm_name": "generic-devuan3-libvirt",
       "output_directory": "output/generic-devuan3-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "10s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -5086,7 +5086,7 @@
       "name": "generic-ubuntu2010-libvirt",
       "vm_name": "generic-ubuntu2010-libvirt",
       "output_directory": "output/generic-ubuntu2010-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "10s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -5134,7 +5134,7 @@
       "name": "generic-fedora33-libvirt",
       "vm_name": "generic-fedora33-libvirt",
       "output_directory": "output/generic-fedora33-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -5169,7 +5169,7 @@
       "name": "generic-alpine313-libvirt",
       "vm_name": "generic-alpine313-libvirt",
       "output_directory": "output/generic-alpine313-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "60s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -5213,7 +5213,7 @@
       "name": "generic-alpine314-libvirt",
       "vm_name": "generic-alpine314-libvirt",
       "output_directory": "output/generic-alpine314-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "60s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -5257,7 +5257,7 @@
       "name": "generic-ubuntu2104-libvirt",
       "vm_name": "generic-ubuntu2104-libvirt",
       "output_directory": "output/generic-ubuntu2104-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "10s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -5305,7 +5305,7 @@
       "name": "generic-rocky8-libvirt",
       "vm_name": "generic-rocky8-libvirt",
       "output_directory": "output/generic-rocky8-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -5337,7 +5337,7 @@
       "name": "generic-alma8-libvirt",
       "vm_name": "generic-alma8-libvirt",
       "output_directory": "output/generic-alma8-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -5369,7 +5369,7 @@
       "name": "generic-fedora34-libvirt",
       "vm_name": "generic-fedora34-libvirt",
       "output_directory": "output/generic-fedora34-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -5404,7 +5404,7 @@
       "name": "generic-freebsd13-libvirt",
       "vm_name": "generic-freebsd13-libvirt",
       "output_directory": "output/generic-freebsd13-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "1s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -5452,7 +5452,7 @@
       "name": "generic-hardenedbsd13-libvirt",
       "vm_name": "generic-hardenedbsd13-libvirt",
       "output_directory": "output/generic-hardenedbsd13-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "1s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -5498,7 +5498,7 @@
       "name": "generic-dragonflybsd6-libvirt",
       "vm_name": "generic-dragonflybsd6-libvirt",
       "output_directory": "output/generic-dragonflybsd6-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "1s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -5557,7 +5557,7 @@
       "name": "generic-debian11-libvirt",
       "vm_name": "generic-debian11-libvirt",
       "output_directory": "output/generic-debian11-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "10s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -5601,7 +5601,7 @@
       "name": "generic-openbsd7-libvirt",
       "vm_name": "generic-openbsd7-libvirt",
       "output_directory": "output/generic-openbsd7-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "60s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -5638,7 +5638,7 @@
       "name": "generic-ubuntu2110-libvirt",
       "vm_name": "generic-ubuntu2110-libvirt",
       "output_directory": "output/generic-ubuntu2110-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "10s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -5686,7 +5686,7 @@
       "name": "generic-alpine315-libvirt",
       "vm_name": "generic-alpine315-libvirt",
       "output_directory": "output/generic-alpine315-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "60s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -5730,7 +5730,7 @@
       "name": "generic-fedora35-libvirt",
       "vm_name": "generic-fedora35-libvirt",
       "output_directory": "output/generic-fedora35-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -5765,7 +5765,7 @@
       "name": "generic-devuan4-libvirt",
       "vm_name": "generic-devuan4-libvirt",
       "output_directory": "output/generic-devuan4-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "10s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -5809,7 +5809,7 @@
       "name": "generic-ubuntu2204-libvirt",
       "vm_name": "generic-ubuntu2204-libvirt",
       "output_directory": "output/generic-ubuntu2204-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "10s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -5857,7 +5857,7 @@
       "name": "generic-fedora36-libvirt",
       "vm_name": "generic-fedora36-libvirt",
       "output_directory": "output/generic-fedora36-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -5892,7 +5892,7 @@
       "name": "generic-rhel9-libvirt",
       "vm_name": "generic-rhel9-libvirt",
       "output_directory": "output/generic-rhel9-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -5930,7 +5930,7 @@
       "name": "generic-centos8s-libvirt",
       "vm_name": "generic-centos8s-libvirt",
       "output_directory": "output/generic-centos8s-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -5962,7 +5962,7 @@
       "name": "generic-centos9s-libvirt",
       "vm_name": "generic-centos9s-libvirt",
       "output_directory": "output/generic-centos9s-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -6000,7 +6000,7 @@
       "name": "generic-alpine316-libvirt",
       "vm_name": "generic-alpine316-libvirt",
       "output_directory": "output/generic-alpine316-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "60s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -6044,7 +6044,7 @@
       "name": "generic-alma9-libvirt",
       "vm_name": "generic-alma9-libvirt",
       "output_directory": "output/generic-alma9-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -6119,7 +6119,7 @@
       "name": "generic-rocky9-libvirt",
       "vm_name": "generic-rocky9-libvirt",
       "output_directory": "output/generic-rocky9-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -6157,7 +6157,7 @@
       "name": "generic-oracle6-libvirt",
       "vm_name": "generic-oracle6-libvirt",
       "output_directory": "output/generic-oracle6-libvirt",
-      "qemu_binary": "qemu-system-x86_64",
+      "qemu_binary": "/usr/libexec/qemu-kvm",
       "boot_wait": "20s",
       "boot_keygroup_interval": "1s",
       "boot_command": [
@@ -6224,6 +6224,11 @@
         ],
         "keep_input_artifact": false,
         "output": "output/roboxes-{{split build_name \"-\" 1}}-{{split build_name \"-\" 2}}-{{user `box_version`}}.box.sha256"
+      },
+      {
+        "type": "vagrant-cloud",
+        "box_tag": "Legit-Services/{{ build_name }}", 
+        "version": "0.0.1"
       }
     ]
   ]
